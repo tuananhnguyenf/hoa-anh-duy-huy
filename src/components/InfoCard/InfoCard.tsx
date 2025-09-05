@@ -6,7 +6,7 @@ export const InfoCard = () => {
       <div className={styles.date}>12/10/2025</div>
       <div className={styles.imageContainer}>
         <img
-          src="src/assets/havel.png"
+          src="/huy-anh/havel.png"
           alt="chateau-image"
           height="auto"
           width="100%"

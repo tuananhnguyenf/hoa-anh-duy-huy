@@ -1,0 +1,37 @@
+.infoCard {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--background-dark);
+  color: var(--text-light);
+  scroll-snap-align: start;
+  flex-wrap: wrap;
+}
+
+.date {
+  font-size: 4rem;
+}
+
+.imageContainer {
+  padding: 1rem 2rem;
+  max-width: 600px;
+  min-width: 300px;
+}
+
+.place {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font-size: 1.25rem;
+}
+
+.heading {
+  text-transform: uppercase;
+  font-size: 2rem;
+  padding: 0;
+  margin: 0.4rem;
+}
